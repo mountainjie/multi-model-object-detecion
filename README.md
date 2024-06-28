@@ -47,3 +47,12 @@ mobicom deadline schedule
 <br>![6.27_train_loss](/image/6.27_train_loss.png)
 <br>验证精度
 <br>![6.27_val_acc](/image/6.27_val_acc.png)
+## 6.28
+<br>数据集（0-15个tracking作为训练集，16到20个tracking作为测试集）
+<br>从上次最好的权重文件开始训练，训练了200个epoch,初始学习率0.01,优化器adam
+<br>训练学习率
+<br>![6.27_learning_rate](/image/6.28_learning_rate.png)
+<br>训练损失
+<br>![6.27_train_loss](/image/6.28_train_loss.png)
+<br>验证精度
+<br>![6.27_val_acc](/image/6.28_val_acc.png)
