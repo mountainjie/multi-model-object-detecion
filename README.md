@@ -38,7 +38,7 @@ mobicom deadline schedule
 
 *进度与问题
 
-## 6.27
+## 6.27（painting）
 <br>数据集（0-15个tracking作为训练集，16到20个tracking作为测试集）
 <br>重新开始训练，训练了106个epoch,初始学习率0.01,优化器adam
 <br>训练学习率
@@ -47,7 +47,7 @@ mobicom deadline schedule
 <br>![6.27_train_loss](/image/6.27_train_loss.png)
 <br>验证精度
 <br>![6.27_val_acc](/image/6.27_val_acc.png)
-## 6.28
+## 6.28 （painting）
 <br>数据集（0-15个tracking作为训练集，16到20个tracking作为测试集）
 <br>从上次最好的权重文件开始训练，训练了200个epoch,初始学习率0.01,优化器adam
 <br>训练学习率
@@ -56,7 +56,7 @@ mobicom deadline schedule
 <br>![train_loss](/image/6.28_train_loss.png)
 <br>验证精度
 <br>![val_acc](/image/6.28_val_acc.png)
-## 6.29
+## 6.29 （painting）
 <br>数据集（全部做训练并且测试精度）
 <br>从新开始训练，训练了100个epoch,初始学习率0.01,优化器adam
 <br>训练学习率
@@ -65,7 +65,7 @@ mobicom deadline schedule
 <br>![train_loss](/image/6.29_train_loss.png)
 <br>验证精度
 <br>![val_acc](/image/6.29_val_acc.jpeg)
-## 7.2
+## 7.2 （painting，数据集去除了地面）
 <br>数据集（0-18个tracking作为训练集，19到20个tracking作为测试集）
 <br>从新开始训练，训练了150个epoch,初始学习率0.01,优化器adam
 <br>训练损失
