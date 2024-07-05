@@ -26,6 +26,15 @@ mobicom deadline schedule
 
 ![1bbaa7da670b85fff974aab30740c89](https://github.com/mountainjie/multi-model-object-detecion/assets/75228656/a9987078-8beb-44cb-beee-0abff756d24a)
 
+* 旧语义分割模型表现，半透明为旧语义分割模型预测结果，白色为大模型的分割结果
+
+![image](https://github.com/mountainjie/multi-model-object-detecion/assets/75228656/dc92b09b-ce36-464b-aa17-9691608d7eff)
+![image](https://github.com/mountainjie/multi-model-object-detecion/assets/75228656/0dcdd309-d5af-46b5-8161-c4cb964b8464)
+![image](https://github.com/mountainjie/multi-model-object-detecion/assets/75228656/139c4189-a682-44a0-8e9e-5a32c7cb33c1)
+![image](https://github.com/mountainjie/multi-model-object-detecion/assets/75228656/aa227b0d-72a1-4218-a787-a07f13ed3c96)
+![image](https://github.com/mountainjie/multi-model-object-detecion/assets/75228656/514f39ac-5c0b-4b38-a33d-a15169bb5532)
+
+
 
 ## 王涛
 * 数据集构建
