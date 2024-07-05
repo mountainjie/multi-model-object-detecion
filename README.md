@@ -81,3 +81,10 @@ mobicom deadline schedule
 <br>![train_loss](/image/7.3_train_loss.png)
 <br>验证精度
 <br>![val_acc](/image/7.3_val_acc.png)
+## 7.3 （纯点云，数据集未过滤）
+<br>数据集（每一个场景的前4/5作为训练集，后面1/5作为测试集）
+<br>从新开始训练，训练了150个epoch,初始学习率0.01,优化器adam
+<br>训练损失
+<br>![train_loss](/image/7.5_train_loss.png)
+<br>验证精度
+<br>![val_acc](/image/7.5_val_acc.png)
