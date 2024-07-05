@@ -18,6 +18,15 @@ mobicom deadline schedule
 
 * 进度与问题
 
+* 读取本地ROI，测试精度
+
+![491371a6da2f63f1b351d1dcde5d300](https://github.com/mountainjie/multi-model-object-detecion/assets/75228656/24cf3709-002d-402a-b647-7224d5af6616)
+
+使用上一帧预测结果作为ROI，测试精度
+
+![1bbaa7da670b85fff974aab30740c89](https://github.com/mountainjie/multi-model-object-detecion/assets/75228656/a9987078-8beb-44cb-beee-0abff756d24a)
+
+
 ## 王涛
 * 数据集构建
 <br>对21个tracking数据集重新划分（0-15个tracking作为训练集，16到20个tracking作为测试集）
