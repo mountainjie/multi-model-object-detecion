@@ -28,11 +28,22 @@ mobicom deadline schedule
 
 * 旧语义分割模型表现，半透明为旧语义分割模型预测结果，白色为大模型的分割结果
 
+旧语义分割模型，对van和car的分辨不佳
+
 ![image](https://github.com/mountainjie/multi-model-object-detecion/assets/75228656/dc92b09b-ce36-464b-aa17-9691608d7eff)
 ![image](https://github.com/mountainjie/multi-model-object-detecion/assets/75228656/0dcdd309-d5af-46b5-8161-c4cb964b8464)
 ![image](https://github.com/mountainjie/multi-model-object-detecion/assets/75228656/139c4189-a682-44a0-8e9e-5a32c7cb33c1)
 ![image](https://github.com/mountainjie/multi-model-object-detecion/assets/75228656/aa227b0d-72a1-4218-a787-a07f13ed3c96)
 ![image](https://github.com/mountainjie/multi-model-object-detecion/assets/75228656/514f39ac-5c0b-4b38-a33d-a15169bb5532)
+
+但大模型预测的cyclist，在远处的情况和与车重叠的情况也表现不佳
+
+![image](https://github.com/mountainjie/multi-model-object-detecion/assets/75228656/f88c7d4b-cc68-4931-8360-8db0499ae5ec)
+![image](https://github.com/mountainjie/multi-model-object-detecion/assets/75228656/9b8abdbc-631d-4e45-96b4-174ec9ae101c)
+
+重叠时容易将前面的cyclist识别为障碍物
+
+![image](https://github.com/mountainjie/multi-model-object-detecion/assets/75228656/9d652152-030b-4337-bf18-5a3bccda2ffd)
 
 
 
