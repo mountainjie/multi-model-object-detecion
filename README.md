@@ -117,3 +117,14 @@ mobicom deadline schedule
 <br>![train_loss](/image/7.5_train_loss.png)
 <br>验证精度
 <br>![val_acc](/image/7.5_val_acc.png)
+
+## 8.23 (对预测网络采用大模型得到的数据作为真值进行训练)
+<br>数据集(大模型对kitti进行语义分割得到的8008个数据)
+<br>导入原始权重文件数据进行训练，训练了15个epoch,初始学习率为0.001，优化器adam
+<br>以下为不进行预测网络的精度测试情况(间隔1fp,间隔2fp)
+<br>![interval_1fp](/image/间隔1fp精度.png)
+<br>![interval_2fp](/image/间隔2fp精度.png)
+<br>以下为经过预测网络的精度测试情况(预测1fp,预测2fp)(采用原始权重文件)
+<br>![pred_1fp](/image/预测1fp.png)
+<br>![pred_2fp](/image/预测2fp.png)
+<br>之后我采用经过kitti数据进行重新训练的网络进行精度测试(1fp为0.55，2fp为0.46)均比不过
